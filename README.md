@@ -4,7 +4,7 @@ This project is a collection of interesting and rare fun facts about Sri Lanka c
 
 ## Project Overview
 
-The project consists of a simple web page that displays fun facts about Sri Lanka cricket. Users can generate new random facts by clicking a button. The project demonstrates the use of HTML, CSS, and JavaScript to create an interactive and visually appealing web page.
+The project consists of a simple web page that displays fun facts about Sri Lanka cricket. Users can generate new random facts by clicking a button. The project demonstrates the use of HTML, CSS, and JavaScript.
 
 ## Features
 
@@ -38,3 +38,7 @@ This project was created for the GenAI 101 with Pieces workshop. The workshop ai
 
 - Special thanks to the GenAI 101 with Pieces workshop organizers.
 - Thanks to all contributors and participants of the workshop.
+
+## Deployed URL
+
+You can view the live version of this project at: [https://dlsnemsara.github.io/GenAI-101-with-Pieces/](https://dlsnemsara.github.io/GenAI-101-with-Pieces/)
