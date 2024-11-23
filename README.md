@@ -20,14 +20,14 @@ The project consists of a simple web page that displays fun facts about Sri Lank
 
 ## File Structure
 
-- `fun_fact.html`: The main HTML file that contains the structure of the web page.
+- `index.html`: The main HTML file that contains the structure of the web page.
 - `styles.css`: The CSS file that contains the styling for the web page.
 - `script.js`: The JavaScript file that contains the logic for generating random facts.
 
 ## How to Run
 
 1. Clone the repository to your local machine.
-2. Open `fun_fact.html` in your web browser.
+2. Open `index.html` in your web browser.
 3. Click the "Generate New Fact" button to see a new random fact.
 
 ## Workshop Information
