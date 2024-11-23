@@ -1,0 +1,97 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #0033a0, #ffd700); /* Updated background with Sri Lankan cricket colors */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Container to hold the main content */
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 3em; /* Increased font size */
+    color: #1a1a1a; /* Dark grey font color for better readability */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Enhanced text shadow */
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px 20px; /* Added padding */
+    border-radius: 10px; /* Added border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added box shadow */
+}
+/* Card styling for facts */
+.card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 600px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Button styling */
+button {
+    background-color: #3498db; /* Updated button color */
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9; /* Updated hover color */
+    transform: scale(1.05);
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
