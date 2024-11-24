@@ -1,97 +1,87 @@
 /* General body styling */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #0033a0, #ffd700); /* Updated background with Sri Lankan cricket colors */
-    color: #333;
+    background: linear-gradient(120deg, #0D47A1, #FFD700); /* Updated gradient */
+    color: #fff;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-}
-
-/* Container to hold the main content */
-.container {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
+    min-height: 100vh; /* Ensures footer placement at the bottom */
 }
 
 /* Header styling */
-header {
-    background-color: #4CAF50;
-    color: white;
+.header h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 50px 0 20px; /* Slight increase for more spacing */
     text-align: center;
-    padding: 1em 0;
 }
 
-/* Main content styling */
-main {
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
+/* Centering container */
+.container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; /* Centers horizontally */
+    justify-content: center; /* Centers vertically */
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto; /* Horizontally centers within the viewport */
+    flex: 1; /* Pushes the footer to the bottom */
+    text-align: center;
 }
 
-/* Heading styling */
-h1 {
-    font-size: 3em; /* Increased font size */
-    color: #1a1a1a; /* Dark grey font color for better readability */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Enhanced text shadow */
-    margin-bottom: 20px;
-    text-align: center;
-    padding: 10px 20px; /* Added padding */
-    border-radius: 10px; /* Added border radius */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added box shadow */
-}
 /* Card styling for facts */
 .card {
-    background-color: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    margin: 20px 0;
-    padding: 30px;
-    transition: transform 0.3s, box-shadow 0.3s;
-    max-width: 600px;
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1)); /* Light gradient background */
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    font-size: 1.2rem;
+    line-height: 1.8;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    color: #f0f8ff; /* Light font color for readability */
     text-align: center;
-    font-size: 18px;
-    line-height: 1.6;
+    min-height: 100px; /* Consistent size */
 }
 
 .card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
 }
 
 /* Button styling */
 button {
-    background-color: #3498db; /* Updated button color */
-    color: white;
+    margin-top: 20px; /* Consistent spacing below the card */
+    background-color: #FFD700;
+    color: #0D47A1;
     border: none;
-    border-radius: 25px;
-    padding: 12px 24px;
-    font-size: 16px;
+    border-radius: 30px;
+    padding: 12px 28px;
+    font-size: 1rem;
+    font-weight: 600;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
+    align-self: center;
+
 }
 
 button:hover {
-    background-color: #2980b9; /* Updated hover color */
-    transform: scale(1.05);
+    background-color: #FFC107;
+    transform: scale(1.1);
 }
 
 /* Footer styling */
 footer {
-    background-color: #333;
-    color: white;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    color: #fff;
     text-align: center;
-    padding: 1em 0;
+    background: rgba(0, 0, 0, 0.5);
     width: 100%;
-    position: relative;
-    bottom: 0;
+    margin-top: auto; /* Keeps footer at the bottom */
 }
