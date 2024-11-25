@@ -85,3 +85,52 @@ footer {
     width: 100%;
     margin-top: auto; /* Keeps footer at the bottom */
 }
+
+/* Responsive design for smaller screens */
+@media only screen and (max-width: 768px) {
+    .header h1 {
+        font-size: 2em;
+        margin: 50px 0 10px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .card {
+        font-size: 1rem;
+        padding: 15px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+        padding: 8px 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .header h1 {
+        font-size: 1.5em;
+        margin: 30px 0 10px;
+    }
+
+    .card {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 0.8rem;
+    }
+
+    footer {
+        font-size: 0.7rem;
+        padding: 6px 0;
+    }
+}
