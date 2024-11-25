@@ -8,6 +8,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Ensures footer placement at the bottom */
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+
 }
 
 /* Header styling */
@@ -47,6 +49,9 @@ body {
     color: #f0f8ff; /* Light font color for readability */
     text-align: center;
     min-height: 100px; /* Consistent size */
+    max-width: 100%;    
+    word-wrap: break-word; /* Ensure long text doesn't overflow */
+    margin: 0 auto; /* Center the card */
 }
 
 .card:hover {
